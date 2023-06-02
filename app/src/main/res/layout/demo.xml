@@ -24,8 +24,8 @@
 
     <View
         android:id="@+id/rectangle_2"
-        android:layout_width="match_parent"
-        android:layout_height="454dp"
+        android:layout_width="648dp"
+        android:layout_height="507dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="164dp"
@@ -36,7 +36,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_1"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.597"
         tools:requiresFadingEdge="vertical" />
 
     <View
@@ -55,7 +55,7 @@
     <!-- Rectangle 3 -->
     <View
         android:id="@+id/rectangle_4"
-        android:layout_width="351dp"
+        android:layout_width="450dp"
         android:layout_height="367dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -86,7 +86,7 @@
         app:layout_constraintStart_toStartOf="@+id/rectangle_3"
         app:layout_constraintTop_toTopOf="@+id/rectangle_3"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/Picture1" />
+        app:srcCompat="@drawable/picture1" />
 
     <TextView
         android:id="@+id/textView2"
@@ -96,7 +96,7 @@
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="36dp"
         android:fontFamily="@font/baloo_bhai"
-        android:text="@string/positiviti"
+        android:text="positiVITi"
         android:textColor="#170404"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -104,5 +104,62 @@
         app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
         app:layout_constraintTop_toTopOf="@+id/rectangle_3"
         app:layout_constraintVertical_bias="0.361" />
+
+    <EditText
+        android:id="@+id/nameSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Name"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_4" />
+
+    <EditText
+        android:id="@+id/registrationSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Registration Number"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toBottomOf="@+id/nameSpace" />
+
+    <EditText
+        android:id="@+id/emailSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="VIT Email Address"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toBottomOf="@+id/registrationSpace" />
+
+    <Button
+        android:id="@+id/logIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toBottomOf="@id/emailSpace" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toBottomOf="@+id/logIn"
+        app:layout_constraintVertical_bias="0.372" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
