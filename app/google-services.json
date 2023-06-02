@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370177576824",
+    "project_id": "chatapplication-e1913",
+    "storage_bucket": "chatapplication-e1913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370177576824:android:5f7e2a4ff240ae2e88c28d",
+        "android_client_info": {
+          "package_name": "com.example.positiviti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370177576824-2mov8vvhdgdigb39mfmkfhtqmmifhad9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClj66qO285yjZMfI28C5eE5MALJSrvfnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370177576824-2mov8vvhdgdigb39mfmkfhtqmmifhad9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
