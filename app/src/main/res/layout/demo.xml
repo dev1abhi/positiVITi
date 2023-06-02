@@ -24,7 +24,7 @@
 
     <View
         android:id="@+id/rectangle_2"
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="454dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -86,7 +86,7 @@
         app:layout_constraintStart_toStartOf="@+id/rectangle_3"
         app:layout_constraintTop_toTopOf="@+id/rectangle_3"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/picture1" />
+        app:srcCompat="@drawable/Picture1" />
 
     <TextView
         android:id="@+id/textView2"
@@ -96,7 +96,7 @@
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="36dp"
         android:fontFamily="@font/baloo_bhai"
-        android:text="positiVITi"
+        android:text="@string/positiviti"
         android:textColor="#170404"
         android:textSize="34sp"
         android:textStyle="bold"
