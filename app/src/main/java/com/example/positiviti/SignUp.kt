@@ -49,8 +49,9 @@ class SignUp: AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     //code for jumping to home
-                    addUserToDataBase(name,email,mAuth.currentUser?.uid!!)
-                    val intent = Intent(this@SignUp,MainActivity::class.java)
+                    val uid = mAuth.currentUser?.uid!!
+                    addUserToDataBase(name,email,uid)
+                    val intent = Intent(this@SignUp,LogIn::class.java)
                     finish()
                     startActivity(intent)
                 }
@@ -61,7 +62,7 @@ class SignUp: AppCompatActivity() {
     }
 
     private fun addUserToDataBase(name: String,email: String,uid: String){
-        mDbRef = FirebaseDatabase.getInstance().getReference()
+        mDbRef = FirebaseDatabase.getInstance().reference
 
         mDbRef.child("user").child(uid).setValue(User(name,email,uid))
     }

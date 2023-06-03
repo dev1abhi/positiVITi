@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:background="@drawable/message_box_background"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginRight="5dp"
-        android:layout_alignParentRight="true" >
-    
-        <TextView
-            android:id="@+id/txt_sent_message"
+        android:layout_alignParentRight="true">
+
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This is sent message"
-            android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:background="@drawable/message_box_background"
+            android:backgroundTint="#DC8637"
+            app:cardCornerRadius="20dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_sent_message"
+                android:layout_margin="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="This is sent message"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
 </RelativeLayout>
