@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="My Account"
+        android:titleTextColor="#ECE6E6"
+        />
+
+    <item
+        android:id="@+id/counsellor"
+        android:title="Our Counsellors"
+
+        />
+
+    <item
+        android:id="@+id/afm"
+        android:title="Schedule a meet"
+        />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/support"
+        android:title="Support"
+        />
+
+    <item
+        android:id="@+id/about"
+        android:title="About us"
+        />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="" />
+    <item
+        android:id="@+id/mwl"
+        android:title="Made With 🧡 By DarkDevs " />
+
+
+</menu>

@@ -1,0 +1,26 @@
+<!-- nav_header.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/nav_header_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/virat" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/nav_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello There!"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
