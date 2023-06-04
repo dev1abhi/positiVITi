@@ -26,7 +26,7 @@ Positiviti is an anonymous counselling chat app that provides a safe and support
 
 ## Nav Bar
 
-<img src="https://github.com/BlckDragonXabhi/positiVITi1.2/assets/132396257/42e095b3-830f-413f-bc75-d3471ce9d70d" alt="Login Screen" width="350px">
+<img src="https://github.com/BlckDragonXabhi/positiVITi1.2/assets/132396257/308f2f03-3335-49ff-84c6-32a56b5c0ee1" alt="Home Page" width="350px">
 
 ## Chat Feature
 
