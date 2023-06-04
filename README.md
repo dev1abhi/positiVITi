@@ -1,6 +1,6 @@
 markdown
 
-# Positiviti - Anonymous Counselling Chat App
+# Positiviti - Anonymous Counselling Chat App ✨
 
 Positiviti is an anonymous counselling chat app that provides a safe and supportive space for individuals seeking emotional support, guidance, and counselling. The app allows users to connect with trained professionals who are available to listen, understand, and provide assistance without judgment.
 
