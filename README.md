@@ -33,7 +33,7 @@ Positiviti is an anonymous counselling chat app that provides a safe and support
 <img src="https://github.com/BlckDragonXabhi/positiVITi1.2/assets/132396257/301b33b4-4294-464c-a86d-8a8fa63efea1" alt="Login Screen" width="350px">
 
 
-# Build With 🧡 By Team DarkDevs ["Abhilash","Kaustubh","Dibya","Rihan"]
+# Build With 💜 By Team DarkDevs ["Abhilash","Kaustubh","Dibya","Rihan"]
 
 
 
